@@ -74,6 +74,8 @@ Set the TEST_CASE parameter in tb_fb_cpu to 1, 2, or 3.
 Run the simulation.
 Observe results in memory (e.g., memory[52]).
 ```
+
+File Structure
 ```assembly
 ├── fb_cpu.v         # CPU module
 ├── blram.v          # RAM module with test cases
