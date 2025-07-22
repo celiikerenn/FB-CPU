@@ -37,16 +37,18 @@ LOD 50     ; Load 5
 ADD 51     ; Add 10
 STO 52     ; Store result (15)
 HLT
+```
 
 Test Case 2: Multiplication
-assembly
+```assembly
 LOD 50     ; Load 5
 MUL 51     ; Multiply by 10
 STO 52     ; Store result (50)
 HLT
+```
 
 Test Case 3: Loop-based Accumulation
-assembly
+```assembly
 i = 0
 temp = 0
 while (i != end):
@@ -54,6 +56,7 @@ while (i != end):
     i++
 store temp to address 52
 HLT
+```
 
 Modules
 fb_cpu: The core CPU implementation.
