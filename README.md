@@ -57,15 +57,17 @@ while (i != end):
 store temp to address 52
 HLT
 ```
-```assembly
+
 Modules
+```assembly
 fb_cpu: The core CPU implementation.
 blram: RAM with preloaded test data.
 tb_fb_cpu: Testbench for simulating the CPU with RAM.
 top: Wrapper module for FPGA I/O integration.
 ```
-```assembly
+
 How to Simulate
+```assembly
 Clone this repository.
 Open in your Verilog simulator (ModelSim, Icarus Verilog, etc.).
 Set the TEST_CASE parameter in tb_fb_cpu to 1, 2, or 3.
@@ -79,8 +81,8 @@ Observe results in memory (e.g., memory[52]).
 ├── top.v            # Top-level FPGA wrapper
 ├── README.md        # Project documentation
 ```
-```assembly
-License
 
+License
+```assembly
 This project is released for educational and non-commercial use. Feel free to use, modify, and learn from it.
 ```
